@@ -1,0 +1,21 @@
+{
+    "name": "afashio/yii2-prom-yml-import",
+    "description": "Import from prom.ua yml file",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," prom.ua"," yml"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "afashio",
+            "email": "push.webstudio@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "afashio\\import\\": ""
+        }
+    }
+}
